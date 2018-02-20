@@ -1,6 +1,6 @@
 -- Creates new rows containing data in column --
-INSERT INTO burger_name (meat, devoured, topping)
 -- value in each row in order
-VALUES ("beef", TRUE, "bacon"),
- ("chicken", TRUE, "bacon"),
- ("beef", TRUE, "extra cheese");
+INSERT INTO burgers (burger_name) VALUES ('chicken');
+INSERT INTO burgers (burger_name) VALUES ('beef');
+INSERT INTO burgers (burger_name, devoured) VALUES ('veggie', true);
+INSERT INTO burgers (burger_name) VALUES ('cow');
